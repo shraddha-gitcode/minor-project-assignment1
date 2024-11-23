@@ -1,0 +1,91 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp"
+android:background="#D3D3D3"
+tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Sign Up Form"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+    android:paddingBottom="24dp" />
+
+<EditText
+    android:id="@+id/etName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your name"
+    android:inputType="textPersonName"
+    android:background="@android:color/white"
+    android:padding="12dp"
+    android:textColor="@android:color/black"
+    android:textColorHint="@android:color/darker_gray"
+    android:layout_marginBottom="16dp" />
+
+<EditText
+    android:id="@+id/etContact"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your contact number"
+    android:inputType="phone"
+    android:background="@android:color/white"
+    android:padding="12dp"
+    android:textColor="@android:color/black"
+    android:textColorHint="@android:color/darker_gray"
+    android:layout_marginBottom="16dp" />
+
+<EditText
+    android:id="@+id/etEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your email"
+    android:inputType="textEmailAddress"
+    android:background="@android:color/white"
+    android:padding="12dp"
+    android:textColor="@android:color/black"
+    android:textColorHint="@android:color/darker_gray"
+    android:layout_marginBottom="16dp" />
+
+
+<EditText
+    android:id="@+id/etPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your password"
+    android:inputType="textPassword"
+    android:background="@android:color/white"
+    android:padding="12dp"
+    android:textColor="@android:color/black"
+    android:textColorHint="@android:color/darker_gray"
+    android:layout_marginBottom="16dp" />
+
+<EditText
+    android:id="@+id/etAddress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your address"
+    android:inputType="textPostalAddress"
+    android:background="@android:color/white"
+    android:padding="12dp"
+    android:textColor="@android:color/black"
+    android:textColorHint="@android:color/darker_gray"
+    android:layout_marginBottom="24dp" />
+
+
+<Button
+    android:id="@+id/btnSubmit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:backgroundTint="@android:color/white"
+    android:textColor="@android:color/black"
+    android:padding="10dp" />
+</LinearLayout>
